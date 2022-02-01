@@ -20,6 +20,9 @@
 		110F5A8027A90E8700965C5E /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A7927A90E8700965C5E /* G.wav */; };
 		110F5A8127A90E8700965C5E /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A7A27A90E8700965C5E /* E.wav */; };
 		110F5A8227A90E8700965C5E /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A7B27A90E8700965C5E /* D.wav */; };
+		110F5A8427A9314100965C5E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A8327A9314100965C5E /* README.md */; };
+		110F5A8727A93C1A00965C5E /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A8627A93C1A00965C5E /* iPhone.png */; };
+		110F5A8927A93E8900965C5E /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A8827A93E8900965C5E /* iPad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		110F5A7927A90E8700965C5E /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
 		110F5A7A27A90E8700965C5E /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
 		110F5A7B27A90E8700965C5E /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		110F5A8327A9314100965C5E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		110F5A8627A93C1A00965C5E /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+		110F5A8827A93E8900965C5E /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 		110F5A4527A908CD00965C5E = {
 			isa = PBXGroup;
 			children = (
+				110F5A8527A93BFD00965C5E /* Screenshots */,
+				110F5A8327A9314100965C5E /* README.md */,
 				110F5A5027A908CE00965C5E /* Xylophone In Swift */,
 				110F5A4F27A908CE00965C5E /* Products */,
 			);
@@ -94,6 +102,15 @@
 				110F5A7B27A90E8700965C5E /* D.wav */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		110F5A8527A93BFD00965C5E /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				110F5A8827A93E8900965C5E /* iPad.png */,
+				110F5A8627A93C1A00965C5E /* iPhone.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,8 +178,11 @@
 				110F5A7C27A90E8700965C5E /* A.wav in Resources */,
 				110F5A7E27A90E8700965C5E /* B.wav in Resources */,
 				110F5A8127A90E8700965C5E /* E.wav in Resources */,
+				110F5A8927A93E8900965C5E /* iPad.png in Resources */,
 				110F5A8227A90E8700965C5E /* D.wav in Resources */,
+				110F5A8727A93C1A00965C5E /* iPhone.png in Resources */,
 				110F5A5927A908CE00965C5E /* Main.storyboard in Resources */,
+				110F5A8427A9314100965C5E /* README.md in Resources */,
 				110F5A7D27A90E8700965C5E /* C.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
